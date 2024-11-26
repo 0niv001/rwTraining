@@ -215,5 +215,3 @@ catch (Exception e){
 finally
 ```
 
-https://github.com/0niv001/rwTraining/tree/main/Coding
-Made a gh repo with notes on what we've been covering and other code stuff, not v well organised, but though it could be useful. 

@@ -12,7 +12,7 @@ Remote use of computing resources e.g. storage and processing power, also allowi
 - [[SaaS]]
 
 **Benefits:**
-*Availability:
+*Availability:*
 - Services stay available despite disruptions such as [[DoS]]
 *Reliability:*
 - Easy to recover from failures and keep function. 
