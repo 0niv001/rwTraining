@@ -12,7 +12,7 @@ JRE runtime that uses the JVM, core libraries and other components needed to run
 Execution sequence
 1. Write code
 2. Compile it
-3. Verify bytecode
+3. Verify bytecode. 
 4. Load classes
 5. Execute Bytecode
 6. Run in runtime environment
@@ -182,16 +182,31 @@ public void name(TYPE var, TYPE var){
 - Create objects in different class java files, allowing us to create multiple objects. 
 - Create them in the same way you would with scanner or random object. 
 - Constructors are methods called when an object is created. 
-- Can have overloaded constructors, just like with methods -> use instead of default values?
+- Can have overloaded constructors, just like with methods - use instead of default values?
+## Principles
+- Abstraction - Focus on key features to better manage complexity. 
+- Encapsulation - Hide irrelevant details in implementation, leaving only important stuff, code is easier to maintain and robust. !! Use access modifiers. 
+	- Getters and setters - way to access and modify attributes of an object, allowing for better integrity and security. 
+	- use prefix get for getters and set for setters. 
+
+- Inheritance - Create new classes based on previous ones, less repetition and more organised code. 
+- Polymorphism - Use objects of different classes interchangeably, more flexible and reusable code. 
+### Types of methods
+- Class - Associated with class
+- Static - called on the class itself instead of an instance. , operations that don't depend on state of object. 
+- Instance - Called on an instance of the class, used to manipulate instance variables. Can perform operations that depend on the state of the object. 
 
 ```Java
 public class Car {
 	String att1
 	int att 2
-	double att 3
-	// Constructor help create different objects, with different attributes
+	private double att 3 // make attribute inacessible outside of class
 	
-	Car(String att1, int att2, double att3 ....){
+	// Constructor help create different objects, with different attributes
+	// Always make constructors public so you can create the object. 
+	// Can create default constructor with no attributes
+	
+	public Car(String att1, int att2, double att3 ....){
 		// This is used to assign value to constructor
 		this.att1 = att1;
 		this.att2 = att2;
@@ -201,7 +216,19 @@ public class Car {
 	void test(){
 		System.out.println(this.att1 + "is the first attribute");
 	}
+	
+	// Create getting and setting  method
+	public double getAtt3(){
+		return att3
+	}
+
+	public void setAtt3(double att3){
+		this.att3 = att3
+	}
+
 }
+
+Car myCar = new Car();
 ```
 ## Try catch
 ```java

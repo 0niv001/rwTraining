@@ -2,7 +2,6 @@
 sticker: lucide//code-2
 ---
 [[Recursion]]
-
 # Data
 - Data can be stored in different formats, with various encodings e.g. ASCII, UCS, UTF-8. 
 - Data is often created for 3 reasons: Backup, Input and Consumption. 
@@ -18,7 +17,7 @@ sticker: lucide//code-2
 - [[Object oriented database]]
 
 **Data Manipulation** - Shaping the data to answer question. 
-- *Hierarchical indexing:
+- *Hierarchical indexing:*
 	- Grouping data into parents and child groups. 
 	- Partial indexing allows to select subsets of data. 
 - *Merging datasets:*  Allows us to find useful patterns.

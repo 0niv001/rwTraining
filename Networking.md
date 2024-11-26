@@ -26,7 +26,7 @@ A network is two or more computers linked together to share data, info and resou
 *[[Traceroute]]*
 *[[Port Scanning]]*
 ### Network Security
-**Type of network attacks:
+**Type of network attacks:**
 1. Bugging / Interception:
 	- Attacks observe data on network to gain info for next attack. 
 	- Passive attack where comms go on as normal - Wiretapping. 
@@ -38,15 +38,15 @@ A network is two or more computers linked together to share data, info and resou
 - **[[Firewall]]**
 - **[[IDS]]**
 - **[[IPS]]**
-- **[[VPN]]
-- **[[Antivirus]]
+- **[[VPN]]**
+- **[[Antivirus]]**
 
 **Network Design:**
 Used to satisfy data comms requirements whilst having efficient performance. 
 **[[Segmentation]]**
 - *[[DMZ]]*
 - *[[VLAN]]*
-- *[[VPN]]
+- *[[VPN]]*
 - [[Defence in Depth]]
 - [[NAC]]
 - [[Zero Trust]]

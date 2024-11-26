@@ -30,7 +30,7 @@
 - State pattern
 	- Behaviour patterns
 ### MVC Architecture
-- Model, view and controller. 
+- Model, View and Controller. 
 	- Model represents the data and business logic 
 	- View is a user interface
 	- Controller handles the user request. 

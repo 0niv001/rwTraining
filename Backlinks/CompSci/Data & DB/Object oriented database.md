@@ -19,4 +19,3 @@ Well suited for:
 - Treat different objects as instance of the same class. 
 - Can use single method across objects of the same class. 
 - Reduces need for separate methods. 
-

@@ -27,12 +27,12 @@ export default function Dog({props="default"}){
 - Can add as many as you want, just add space
 - `<component props2 = {123} prop3 = {["blue", "red", "green"]}/>`
 
-**Conditionals
+**Conditionals**
 - Can use ternary operator inline and render HTML straight away. 
 - `{x ==y ? <h1> content </> : <h1>Content</>}`
 - `{x == y && <h1> content <h1/>}`
 
-**Dynamic component styles
+**Dynamic component styles**
 - Provide CSS inline, using JS objects
 - `const styles = {color: num1===num2 ? "red" : "green"}` and add to HTML using {}. 
 

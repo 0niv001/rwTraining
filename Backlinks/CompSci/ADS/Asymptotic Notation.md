@@ -1,4 +1,4 @@
-Running time of [[Search Algorithms]] or [[Algorithms]] depend on how long it takes a cpu to run the lines of code, specifically the primitive operations executed. 
+Running time of [[Algorithms]] depend on how long it takes a cpu to run the lines of code, specifically the primitive operations executed. 
 
 To work out running time without influence of other factors, we look at the algorithms rate of growth. 
 

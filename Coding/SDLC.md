@@ -1,4 +1,6 @@
 *Software Development lifecycle*
+- Methodology for software development. 
+- Aims to quickly and efficiently make high quality software. 
 
 Steps
 1. Feasibility study (Can it be built)
@@ -9,12 +11,7 @@ Steps
 6. Deployment
 7. Maintenance
 
-Methodology for software development. 
-Follows steps to ensure success of the project. 
-
-Aims to quickly and efficiently make high quality software. 
-
-**Feasibility study**
+## Feasibility study
 - How development is initiated when a need or opportunity is identified
 - Purpose and main activities of a feasibility study. 
 - Importance of planning software development
@@ -27,11 +24,6 @@ Aims to quickly and efficiently make high quality software.
 - You either can and cannot do it
 - Provides documentation that the idea was investigated. 
 - What is the likelihood that this is calm to do. 
-
-We will be doing this for our final project. 
-
-Come up with 3 ideas of what you want to build and sketch out technical feasibility, and once you pick something, you will do the full feasibility study. 
-
 
 *Technical feasibility*
 - Do you have the resources and tech to accomplish the task. 
@@ -48,8 +40,7 @@ Come up with 3 ideas of what you want to build and sketch out technical feasibil
 - Well defined metrics and models - Keep them consistent
 - Can have big time costs
 
-*Risk assessment*
-- Read dissertation back. 
+*Risk assessment
 
 *Consider Alternatives*
 - Market positioning
@@ -58,19 +49,19 @@ Come up with 3 ideas of what you want to build and sketch out technical feasibil
 - External sources - Careful with dependencies. 
 
 *Operational*
-- Performace
+- Performance
 - Information
 - Economy
 - Control
 - Efficiency
 - Services
 
-*Environmental
+*Environmental*
 
 *Legal feasibility*
 - Copyright, Designs and Patents Act 1988
 
-**Report Writing
+**Report Writing**
 - Intro / Executive Summary
 - Background - Give it some life
 - Outline of project
@@ -78,7 +69,7 @@ Come up with 3 ideas of what you want to build and sketch out technical feasibil
 - Overview of alternatives
 - Conclusion
 - Recommendations
-# Role of customers and users in defining requirements
+## Requirements
 - Requirements help communicate and define customer needs and problems
 - Stakeholders can establish consensus on what problems need to be solved. 
 - Helps give estimate for timelines. 
@@ -91,3 +82,52 @@ Come up with 3 ideas of what you want to build and sketch out technical feasibil
 Characters created from research to represent different users.   
 Helps understand user needs and behaviours. 
 Helps you get a different perspective. 
+
+**Customer Journey Mapping**
+- Visual representation of experience customers have
+- Steps
+	1. Nail down user persona
+	2. Understand who customers are
+	3. Understand goals
+	4. Map out user touch points
+	5. identify pain points
+	6. Prioritise and fix roadblocks
+	7. Update and improve. 
+
+**Functional requirements**
+- Requirements representing core functionality of system. 
+
+**Non-Functional requirements**
+- Additional requirement e.g. Time and performance constraints. 
+- Security
+	- Ongoing process, ensuring [[CIA]]
+	- Software needs to be developed with security in mind. 
+	- Should be planned and managed throughout SDLC process. 
+	- Need more than tech to ensure security. 
+- Availability
+	- Timely and reliable access to info and ability of use. 
+- Reliability
+	- Does it do what it's meant to do?
+	- Does not account for repairs that might take place. 
+	- Accounts for time taken for components to fail whilst in operation. 
+- Performance
+	- What the system does and how well it needs to do it. 
+	- Should be determined as result of functional analysis looking at customer needs. 
+- Capacity
+	- Measurable property of a process to the spec. 
+		- Number of stories - Future vs past
+		- Number of sprints - Future vs past
+- Continuity
+	- What's needed to keep operations going. 
+	- Collect info on resources needed to support organisation. 
+	- How long will the software run without crashing?
+- Supportability
+	- Support software over its lifecycle at reasonable cost. 
+	- Have a wiki in place for final project!!
+- Serviceability
+	- How easily systems can be maintained and repaired. 
+	- Early detection of problems is critical. 
+- Scalability
+	- Can you keep up with volume of demand?
+	- Physical - Hardware, data storage, network bandwidth. 
+	- Intangible - Business growth, can be intrinsic and extrinsic. 
