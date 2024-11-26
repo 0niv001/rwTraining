@@ -32,10 +32,6 @@ We will be doing this for our final project.
 
 Come up with 3 ideas of what you want to build and sketch out technical feasibility, and once you pick something, you will do the full feasibility study. 
 
-What problem do you want to solve?
-1. Browser - Vertical Tabs, No fingerprinting, WebKit, FS view, minimal, no sign in and tracking. 
-2. Something related to Music / DJ?
-3. Something related to Cybersec?
 
 *Technical feasibility*
 - Do you have the resources and tech to accomplish the task. 
@@ -91,3 +87,7 @@ What problem do you want to solve?
 - Who they are
 - Problem they face
 
+**Personas**
+Characters created from research to represent different users.   
+Helps understand user needs and behaviours. 
+Helps you get a different perspective. 

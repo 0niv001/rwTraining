@@ -1,4 +1,4 @@
-## Sorting
+# Sorting
 - Keys - What we want to sort. 
 - Input - The array. 
 - Swap function - Function that swaps the location of 2 items in an array. 

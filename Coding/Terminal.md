@@ -195,10 +195,3 @@ date -> date and time.
 sudo shutdown -r now -> shutdown or reboot *Need to give time*
 blueutil -p 0 / 1 -> turn bluetooth on or off. 
 ```
-## ToDo
-- [ ] !!! Make alias to open apps
-- [ ] create search alias -> search on the internet
-- [ ] "https://duckduckgo.com/?q={argument}"
-- [ ] Alias . . to go back without cd 
-- [ ] Look for useful aliases. 
-- [ ] Look into terminal functions to replace raycast. 

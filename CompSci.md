@@ -3,8 +3,6 @@ sticker: lucide//code-2
 ---
 [[Recursion]]
 
-
-
 # Data
 - Data can be stored in different formats, with various encodings e.g. ASCII, UCS, UTF-8. 
 - Data is often created for 3 reasons: Backup, Input and Consumption. 
