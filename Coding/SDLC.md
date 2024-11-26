@@ -84,3 +84,12 @@ What problem do you want to solve?
 - Recommendations
 
 Friday 29th EOD - Have feasibility report for the 3 ideas?
+
+# Role of customers and users in defining requirements
+- Requirements help communicate and define customer needs and problems
+- Stakeholders can establish consensus on what problems need to be solved. 
+- Helps give estimate for timelines. 
+
+**How research can help understand end users**
+- Who they are
+- Problem they face

@@ -1,7 +1,7 @@
 ---
 sticker: lucide//file-code
 ---
-**Template literals
+**Template literals**
 - Strings with embedded expressions. 
 - use backticks \`\`
 - ``text ${3+4} text`;`
