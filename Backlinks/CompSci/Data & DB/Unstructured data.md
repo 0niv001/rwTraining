@@ -1,0 +1,2 @@
+- Data with no structure like documents, images and video data. 
+- Referred as BLOB - binary large object. 

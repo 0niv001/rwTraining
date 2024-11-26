@@ -1,0 +1,5 @@
+We choose a node ~n~ with minimum value of some evaluation, and we do this on each iteration, we keep expending until we reach the goal state.
+
+Best-First search algorithms are a family of search algorithms that use an evaluation function to select nodes for expansion. The evaluation function is used to rank the nodes in the search space, and the algorithm selects the node with the best ranking to expand next. The goal of the algorithm is to find a path to the goal state that minimizes the evaluation function.
+
+The function for expanding a node in a search algorithm involves generating all possible successors of the node and checking each one to see if it is the goal state. If the successor is not the goal state, it is added to the frontier, which is a list of nodes waiting to be expanded. The process continues until the goal state is found or the frontier is empty.

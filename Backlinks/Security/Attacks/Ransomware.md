@@ -1,0 +1,1 @@
+Type of [[Trojan]]using cryptography to lock files & systems, requiring payment for unlocking. 

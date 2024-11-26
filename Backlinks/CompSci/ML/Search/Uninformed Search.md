@@ -1,0 +1,1 @@
+These algorithms do not know whether they are getting closer to the goal or not.

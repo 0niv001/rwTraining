@@ -1,0 +1,1 @@
+Self replicating software with the aim of damaging systems. 

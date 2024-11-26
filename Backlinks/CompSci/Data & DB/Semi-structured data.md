@@ -1,0 +1,2 @@
+- Data with higher amount of metadata. e.g. JSON
+- Loose or no schema, some structure, but allowing for variation to attributes. 

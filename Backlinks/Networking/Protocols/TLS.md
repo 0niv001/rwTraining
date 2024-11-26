@@ -1,0 +1,1 @@
+[[Transport Layer]][[Encryption]] protocol used to provide secure comms over networks. 

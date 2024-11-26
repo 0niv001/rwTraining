@@ -1,0 +1,4 @@
+- Using both [[Private Cloud]] and [[Public Cloud]] in a connected environment. 
+- Allows use of public resources in case of a surge in demand. 
+- Can provide an extra layer of security, e.g. use public cloud for non critical ops. 
+- Company is responsible for the security, compliance and legal requirements. 

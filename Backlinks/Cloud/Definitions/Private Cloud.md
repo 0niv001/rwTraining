@@ -1,0 +1,5 @@
+- Clouds used only by one entity, allowing for more control. 
+- Developed and deployed for a private organisation that build their own cloud. 
+- More expensive and has the least amount of benefits. 
+- Can be hosted on site, and the data is not colocated. 
+- Can have high upfront costs (hardware, setup, upkeep). 

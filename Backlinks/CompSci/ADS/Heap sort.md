@@ -1,0 +1,2 @@
+- Has a running time of $0(nlgn)$  and sorts in place. 
+- efficient priority technique, as they are nearly complete [[Binary Trees]]

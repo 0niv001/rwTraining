@@ -1,0 +1,2 @@
+- Built, controlled and maintained by a 3rd party. 
+- Anyone can purchase the service, and access and use the resources. 

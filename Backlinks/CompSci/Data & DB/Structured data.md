@@ -1,0 +1,4 @@
+- Data conforming to fixed schema where everything has the same properties. 
+- Usually stored in tables found in databases e.g. [[SQL]]
+- Tables are used to reference other tables - [[Relational database]]
+- Less flexible than other types of data. 
