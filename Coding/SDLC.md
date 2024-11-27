@@ -129,5 +129,43 @@ Helps you get a different perspective.
 	- Early detection of problems is critical. 
 - Scalability
 	- Can you keep up with volume of demand?
-	- Physical - Hardware, data storage, network bandwidth. 
-	- Intangible - Business growth, can be intrinsic and extrinsic. 
+	- Physical - Hardware, data storage, network bandwidth.
+	- Intangible - Business growth, can be intrinsic and extrinsic.
+
+**Good requirements**
+- Unambiguous
+- Testable
+- Clear
+- Feasible
+- Independent
+- Atomic - Single thing. 
+- Necessary
+
+**Data Dictionary**
+- Allows for research to be repeated easily by allowing others to understand data. 
+- Explain what all the vars and vals mean. 
+- Things to include:
+	- Var names
+	- Measurement units
+	- Allowed values
+	- Definition of vars. 
+
+**Tools for requirements gathering**
+- Functional decomposition
+	- Break down problem in simpler subtasks. 
+	- Functional requirement doc is a txt representation of functional decomposition. 
+- Use case diagram
+	- Dynamic or behaviour diagram in UML
+	- Model functionality of system using actors and use cases. 
+- Context diagram
+- UML
+	- 14 Diagram types representing structure, behaviour and interaction of system.
+	- ERD 
+	- Sequence
+	- Activity diagram - Dynamic aspect of systems. 
+
+
+!! Most important part of the requirements is the contract - Makes sure you get paid and all parties agree on the requirements for the software. 
+
+
+

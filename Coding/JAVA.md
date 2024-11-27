@@ -188,16 +188,34 @@ public void name(TYPE var, TYPE var){
 - Encapsulation - Hide irrelevant details in implementation, leaving only important stuff, code is easier to maintain and robust. !! Use access modifiers. 
 	- Getters and setters - way to access and modify attributes of an object, allowing for better integrity and security. 
 	- use prefix get for getters and set for setters. 
-
-- Inheritance - Create new classes based on previous ones, less repetition and more organised code. 
+- Inheritance - Create new classes based on previous ones, less repetition, more organised and modular code. 
+	- Parent referred to as superclass, child referred as subclass. 
+	- Child inherits properties and methods of superclass, and can have additional ones. 
+	- Types of inheritance:
+		- Single: Inherit from only one superclass (most used type)
+		- Multiple: Inherit from multiple superclasses. 
+		- Multilevel: Subclass inheriting from superclass which inherits from superclass before. 
+		- Hierarchical: Multiple subclasses inherit from single superclass, used to create hierarchy. 
+	- Super - Keyword used to refer to super class. Allows access to properties and methods not available from subclass. 
+	- Upcasting: Casting from subclass to superclass. 
+	- Downcasting: Casting from superclass to subclass. 
 - Polymorphism - Use objects of different classes interchangeably, more flexible and reusable code. 
+	- Compile time: Method overloading, compiler chooses which method to call. 
+	- Run-time: Method overriding, method called is determined at runtime. 
+	- Dynamic method dispatch: Call to overridden method is resolved at runtime instead of compile. 
+	- Constructors: ensures base and derived classes are initialised correctly
+
+**Constructor best practices**
+- Initialise object state- set up all necessary properties, helps avoid errors. 
+- No side effects - should not modify external state or produce output. 
+- Simplicity and efficiency. 
 ### Types of methods
 - Class - Associated with class
 - Static - called on the class itself instead of an instance. , operations that don't depend on state of object. 
 - Instance - Called on an instance of the class, used to manipulate instance variables. Can perform operations that depend on the state of the object. 
 
 ```Java
-public class Car {
+public class Car { // use extends to create subclass 
 	String att1
 	int att 2
 	private double att 3 // make attribute inacessible outside of class
@@ -225,6 +243,8 @@ public class Car {
 	public void setAtt3(double att3){
 		this.att3 = att3
 	}
+	
+	@Override // Overrides OG method, if it has == name, return and parameters
 
 }
 
