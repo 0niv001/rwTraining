@@ -184,22 +184,39 @@ public void name(TYPE var, TYPE var){
 - Constructors are methods called when an object is created. 
 - Can have overloaded constructors, just like with methods - use instead of default values?
 ## Principles
-- Abstraction - Focus on key features to better manage complexity. 
-- Encapsulation - Hide irrelevant details in implementation, leaving only important stuff, code is easier to maintain and robust. !! Use access modifiers. 
+- **Abstraction** 
+	- Focus on key features to better manage complexity, allows for more efficient and manageable code. 
+	- Classes - Cannot be instantiated (cannot create objects from it), it is used as a blueprint for other classes, allows to create hierarchy. 
+	- Methods - Do not have an implementation, defined in abstract class. They are implemented in subclasses. 
+	- Constructors - Initialise variables common in all subclasses, less duplication. 
+- **Interfaces**
+	- Way of defining set of methods that class must implement. 
+	- Allow separation of definition of data type from implementation
+	- Code becomes easier to write, reuse and modular. 
+	- Can have as many interfaces into a class, as opposed to single abstract inheritance. 
+	- Different rules for different interfaces, hence why they are not implemented in abstract classes. 
+	- Define using interface keyword. 
+	- Can define constants, and methods are implicitly public and abstract and can't have implementation. 
+	- Should be well documented, and public access modifiers, other best practices should be adhered to as well. 
+	- 
+- **Encapsulation** 
+	- Hide irrelevant details in implementation, leaving only important stuff, code is easier to maintain and robust. !! Use access modifiers. 
 	- Getters and setters - way to access and modify attributes of an object, allowing for better integrity and security. 
 	- use prefix get for getters and set for setters. 
-- Inheritance - Create new classes based on previous ones, less repetition, more organised and modular code. 
+- **Inheritance**
+	- Create new classes based on previous ones, less repetition, more organised and modular code. 
 	- Parent referred to as superclass, child referred as subclass. 
 	- Child inherits properties and methods of superclass, and can have additional ones. 
 	- Types of inheritance:
-		- Single: Inherit from only one superclass (most used type)
-		- Multiple: Inherit from multiple superclasses. 
-		- Multilevel: Subclass inheriting from superclass which inherits from superclass before. 
-		- Hierarchical: Multiple subclasses inherit from single superclass, used to create hierarchy. 
+		- *Single*: Inherit from only one superclass (most used type)
+		- *Multiple*: Inherit from multiple superclasses. 
+		- *Multilevel*: Subclass inheriting from superclass which inherits from superclass before. 
+		- *Hierarchical*: Multiple subclasses inherit from single superclass, used to create hierarchy. 
 	- Super - Keyword used to refer to super class. Allows access to properties and methods not available from subclass. 
-	- Upcasting: Casting from subclass to superclass. 
-	- Downcasting: Casting from superclass to subclass. 
-- Polymorphism - Use objects of different classes interchangeably, more flexible and reusable code. 
+	- *Upcasting*: Casting from subclass to superclass. 
+	- *Downcasting*: Casting from superclass to subclass. 
+- **Polymorphism** 
+	- Use objects of different classes interchangeably, more flexible and reusable code. 
 	- Compile time: Method overloading, compiler chooses which method to call. 
 	- Run-time: Method overriding, method called is determined at runtime. 
 	- Dynamic method dispatch: Call to overridden method is resolved at runtime instead of compile. 
@@ -218,7 +235,7 @@ public void name(TYPE var, TYPE var){
 public class Car { // use extends to create subclass 
 	String att1
 	int att 2
-	private double att 3 // make attribute inacessible outside of class
+	private double att 3 // private makes attribute inacessible outside of class
 	
 	// Constructor help create different objects, with different attributes
 	// Always make constructors public so you can create the object. 
@@ -243,11 +260,8 @@ public class Car { // use extends to create subclass
 	public void setAtt3(double att3){
 		this.att3 = att3
 	}
-	
 	@Override // Overrides OG method, if it has == name, return and parameters
-
 }
-
 Car myCar = new Car();
 ```
 ## Try catch
