@@ -2,6 +2,7 @@
 sticker: lucide//cloudy
 ---
 Remote use of computing resources e.g. storage and processing power, also allowing for [[Virtualisation]]
+
 **Types of Cloud**:
 - [[Hybrid Cloud]]
 - [[Private Cloud]]
@@ -23,7 +24,6 @@ Remote use of computing resources e.g. storage and processing power, also allowi
 - Can adjust resources to meet demand
 - Vertical: Can add resources to VM as needed
 - Horizontal: Can add VMs or containers based on demand 
-
 ## Azure
 Microsoft cloud provider, offering different services. 
 
@@ -40,8 +40,8 @@ Microsoft cloud provider, offering different services.
 - [[AZ VM]]
 
 **Networking Services**
-- AZ VPN
-- AZ DNS
+- AZ [[VPN]]
+- AZ [[DNS]]
 - [[AZ Virtual Networking]]
 - [[Express route]]
 
@@ -51,4 +51,3 @@ Microsoft cloud provider, offering different services.
 - [[AZ Firewall]]
 - [[WAF]]
 - [[NSG]]
-

@@ -1,16 +1,18 @@
+---
+sticker: lucide//rotate-cw
+---
 *Software Development lifecycle*
 - Methodology for software development. 
 - Aims to quickly and efficiently make high quality software. 
 
 Steps
 1. Feasibility study (Can it be built)
-2. Requirements analysis ()
+2. Requirements analysis()
 3. Design
 4. Implementation
 5. Testing
 6. Deployment
 7. Maintenance
-
 ## Feasibility study
 - How development is initiated when a need or opportunity is identified
 - Purpose and main activities of a feasibility study. 

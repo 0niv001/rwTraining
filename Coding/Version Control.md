@@ -64,10 +64,8 @@ Conventions are dictated by company policy.
 **Github Issues**
 Create new issues that need to be worked on - Bugs, feature requests and TODOs 
 
-
 *Other*
 Track progress using a readme file. 
-
 
 **GitHub Actions**
 

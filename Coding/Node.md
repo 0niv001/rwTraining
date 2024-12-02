@@ -1,3 +1,6 @@
+---
+sticker: lucide//unlink-2
+---
 Client side JS that runs on the backend. 
 Type node in terminal to start REPL. 
 `node file.js` to run a JS file using node.  
