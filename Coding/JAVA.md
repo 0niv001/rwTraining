@@ -230,6 +230,7 @@ public void name(TYPE var, TYPE var){
 - Class - Associated with class
 - Static - called on the class itself instead of an instance. , operations that don't depend on state of object. 
 - Instance - Called on an instance of the class, used to manipulate instance variables. Can perform operations that depend on the state of the object. 
+- Every class extends objects -> can have a whole pathways. 
 
 ```Java
 public class Car { // use extends to create subclass 
@@ -264,15 +265,25 @@ public class Car { // use extends to create subclass
 }
 Car myCar = new Car();
 ```
-## Try catch
+## Exception Handling
+- Exceptions are errors during program execution, allowing program to continue. 
+- Checked (Checked by compiler) and unchecked (Not checked, detected at run time). 
+- Create log of what is causing the exceptions. 
+- Multiple exceptions: Can use multiple catch blocks, need to be from most to least specific. 
+- Custom exceptions - specific to particular application or program, superclass of exception. 
 ```java
 try {
 	//try running code in here without crashing
 }
-catch (Exception e){
+catch (MoreSpecificException e){
 	//if there is an error, run this code
 }
+catch (LessSpecificException){
 
-finally
+}
+finally { // ensures piece of code is always executed
+	//e.g. send out log 
+	// not too different from writing the next line
+} 
 ```
 

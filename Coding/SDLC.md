@@ -170,4 +170,84 @@ Helps you get a different perspective.
 !! Most important part of the requirements is the contract - Makes sure you get paid and all parties agree on the requirements for the software. 
 
 
+## Design
+- Purpose and scope of design
+- Make software fit for purpose according to function and non functional requirements.
+- Identify system components that need to be considered when designing software. 
+- Good design = Better operational software and impact on costs. 
+- Prototyping and modelling to help analysis and design. 
 
+Software design document - Description of design of system to allow for development
+2 Stages:
+- Preliminary - System and data architecture. 
+- Detailed - in depth data structures and algorithms.
+
+**Functional Design - Verb**
+- Fit for purpose according to functional requirements
+- Logical flow of systems
+- Inputs and outputs
+- Data organisation
+- Business and processing rules
+- How things appear to users
+
+**Non-Functional - Attribute**
+- Quality aspects of system. 
+- Performance attribute of software system
+- Ensure good UX
+
+**System components**
+- Software Architecture
+	- Structures of software systems and creating these. 
+	- Each structure comprises software elements, relations and properties among them. 
+	- Follow Arrow to make sure that UML is conforming to the standards. 
+- UI
+	- How users and computer systems interact. 
+	- Use of input devices and software. 
+	- Figma Mockup. 
+- User ergonomics
+	- Software design, instead of hardware design. 
+	- Determination of user needs, interface design, User support and usability testing. 
+	- User centred approach to the development of interactive systems. 
+- Infrastructure
+	- Software object - interacts with other components
+	- Encapsulate certain functionality or set of them
+	- Defined interface, conforming to recommended behaviour
+	- Separation of concerns. 
+	- Requirements often align to whole part. 
+- Operational processes
+	- Lifecycle
+	- Cross lifecycle
+	- Primary lifecycle process - Phases of waterfall method
+		- Discovering requirements
+		- Designing solutions
+		- Constructing solutions
+		- Validating solutions
+		- Implementing solutions
+	- Cross lifecycle process 
+		- Planning project
+		- Estimating 
+		- Tracking and reporting status
+		- Defining processes and standards
+		- Measuring and monitoring process performance
+		- Training
+		- Controlling versions and release of software
+- Measures and metrics
+	- Measure of software characteristics. 
+	- Important for performance and planning. 
+	- Should be:
+		- Simple and computable
+		- Consistent (Units, objective)
+		- Easy to calibrate
+		- Easy and cost-effective to obtain
+		- Can be validated for accuracy and reliability. 
+	- Scope:
+		- Cost and effort. 
+		- Productivity measures and model. 
+		- Data collection. 
+		- Quantity models. 
+		- Reliability. 
+		- Evaluation of methods and tools. 
+- HCI (Human computer interaction)
+	- User
+	- Computer itself
+	- How it all works together
