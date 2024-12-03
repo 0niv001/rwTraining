@@ -251,3 +251,24 @@ Software design document - Description of design of system to allow for developm
 	- User
 	- Computer itself
 	- How it all works together
+
+## Code development
+Concurrency model
+- Shared mutable state
+- Actor model
+
+Tracking
+- Allows flexibility
+- Tools help teams identify requirements and divide them into several smaller tasks. 
+- Learn [[Jira]]- High demand. 
+
+Traceability
+- Can be mandated. 
+- Keep track of lifecycle and what happened. 
+- Indicates dependency between items. 
+
+Peer Review
+- Detect and correct defects in artefacts and prevent leakage
+- Find bugs early, teach and share knowledge, consistent design
+- Agile retrospective - Reflect on iteration, identify actions for improvement
+

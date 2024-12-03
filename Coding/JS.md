@@ -9,7 +9,7 @@ sticker: lucide//file-code
 **Object literals = dictionaries**
 `let varibl = {key: value,};`
 
-**for each loop**
+**For each loop**
 `for (let variable of arr) {do}`
 
 **Functions**

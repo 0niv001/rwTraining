@@ -286,4 +286,67 @@ finally { // ensures piece of code is always executed
 	// not too different from writing the next line
 } 
 ```
+## Collections in Java
+- Interfaces - Collection/ List, Set, Queue, Map to manipulate groups of objects. 
+- Implementation classes. 
+- List implementation
+	- Array list
+		- Store and manipulate dynamic collection, no need to specify ahead of time. 
+		- add(), remove(), get()
+		- Cannot use primitive data types. 
+	- Stack
+		- Subclass of Vector - LIFO stack 
+		- push(), pop(), peek() - returns item at the top of the stack, without removing it. 
+		- Quick access to last item. 
+	- Linked List
+		- Header (Pointer to first linked element)size (numbers of elements in linked list) and modCount (Modifications made to the linked list)
+		- addFirst(), addLast(), removeFirst(), removeLast(), as well as same as arraylist. 
+		- "Floating rectangles" dotted around in memory, linked to each other. 
+		- Change where items are pointing to. 
+		- Much faster and efficient than array list when adding, unless adding to the end. 
+		- When searching, you need to go through each one of them. 
+		- Good for dataset with less updating. 
+- Set Implementation
+	- HashSet - 
+		- Uses hash table to store unique elements, does not keep order, allows null elements. 
+		- Add, Remove - Objects itself instead of the index, Contains method. 
+		- Everything is done in constant time, there's no duplicates and therefore no redundant information. 
+		- Require more memory
+	- LinkedHashSet
+		- Doubly linked list running on all elements. 
+		- Keeps the order. 
+		- Takes up a lot of memory. 
+	- TreeSet
+		- Sorted order, 
+		- Easy to iterate over elements in specific sequence
+		- Add, remove, first (First, lowest element in the set) methods. 
+		- No null elements. 
+```java
+ArrayList<Integer> al = new ArrayList<>(); // same syntax for others e.g. Stack
+sout(al) -> prints out whole array
+sout(al.get(index)) -> to get value of item 
 
+```
+
+- Queue Implementation
+	- Priority Q - FIFO (First in, first out)
+		- Priority Q based on natural order to custom operator. 
+		- Add, remove, peek methods. 
+		- Allows for duplicates
+	- ArrayDeque
+		- Resizable array implementing deque interface
+		- You can have any object types inside of it. 
+- Maps
+	- HashMap
+		- Map interface, Key value pairs, only key is unique. 
+		- put, get, remove methods 
+- Enum Map
+	- Used with enum keys
+	- put, get, containskey()
+	- Good for lists of items. 
+	- Whenever on is created, they should be typed in caps. 
+- Tree Map
+	- Sorted by keys. 
+	- Can use binary search for it. 
+	- Remove things by their key. 
+	- 

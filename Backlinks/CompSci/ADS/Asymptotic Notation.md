@@ -21,3 +21,15 @@ Big O notation is usually used, as it gives the worst case scenario.
 | O(n^2)  | quadratic         |
 | O(n^3)  | cubic             |
 | O(2^n)  | Don't even bother |
+## Big O Rules
+- If algo performs f(N) steps, then its O(N)
+- If algo performs f(N) steps, followed by g(N) steps -> O(f(N) + g(N)) -> O(2N)
+- If f(N) > g(N) then O(f(N) + g(N)) -> O(f(N))
+- O(C + f(N)) -> O(f(N))
+- If algo performs g(N) steps for each of f(N) steps -> O(f(N) * g(N)) -> O(N^2)
+- O(1) - 1 Action
+- O(N) - 1 Action per input
+- O(N^2) - For each input, loop through the inputs again - usually nested
+- O(logN) - Divide search space into 2 pieces at each step. - trees
+- O(2^N) - Selection of items. 
+- 
