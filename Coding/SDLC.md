@@ -168,8 +168,6 @@ Helps you get a different perspective.
 
 
 !! Most important part of the requirements is the contract - Makes sure you get paid and all parties agree on the requirements for the software. 
-
-
 ## Design
 - Purpose and scope of design
 - Make software fit for purpose according to function and non functional requirements.
@@ -260,7 +258,7 @@ Concurrency model
 Tracking
 - Allows flexibility
 - Tools help teams identify requirements and divide them into several smaller tasks. 
-- Learn [[Jira]]- High demand. 
+- Learn [[Jira]]- High demand
 
 Traceability
 - Can be mandated. 
@@ -268,7 +266,60 @@ Traceability
 - Indicates dependency between items. 
 
 Peer Review
-- Detect and correct defects in artefacts and prevent leakage
-- Find bugs early, teach and share knowledge, consistent design
-- Agile retrospective - Reflect on iteration, identify actions for improvement
+- Detect and correct defects in artefacts and prevent leakage. 
+- Find bugs early, teach and share knowledge, consistent design. 
+- Agile retrospective - Reflect on iteration, identify actions for improvement. 
 
+## Testing
+- Defects can be found throughout the phases of SDLC
+- Start early to minimise defects in later stages. 
+- Design review, unit testing, regression testing. 
+
+Risk reduction 
+- Impact and likelihood.  
+- Decide which and if testing is required for certain features. 
+
+Conformance
+- % of adherence to pre set expectations. 
+
+All defects start with an error, reviewers need to find defects, and testers know that software contains bugs. 
+
+Debugging and testing are different
+- Debug is the dev activity identifying cause of a defect, and fixes that 
+
+Levels of testing
+- Unit
+	- Individual components of software are tested. 
+	- Validate each unit (Smallest testable part of software) performs as expected. 
+	- One of a few inputs and a single output. 
+- Integration
+	- Units are combined and tested as a group. 
+	- Expose faults in interaction between integrated units. 
+	- Test drivers and stubs are used to assist in Integration Testing. 
+- System
+	- Complete and integrated software is tested. 
+	- Evaluate compliance with specified requirements.  
+- Acceptance
+	- Establish confidence in system and characteristics of it
+	- Does what it is meant to do. 
+	- Ensuring fit for purpose - Is it ready for deployment and delivery. 
+	- Test of system under typical use. 
+- Regression
+	- Testing old program after modifying it, ensuring defects have not been introduced. 
+
+**Techniques**
+- Functional 
+	- What system needs to do, to achieve objectives. 
+	- External behaviour, so it is black box testing
+- Non Functional
+	- Constraints on functionality - How well
+	- Security, Performance, Usability (How easily users can use the app, alpha and beta testing), Reliability. 
+- Black box
+	- Functional and non functional. 
+	- External view of software, not using info RE/ internal structure of components. 
+	- Derive and select test conditions, cases and data. 
+	- Equivalence partitioning - !Not a good model to work from. 
+	- Boundary value test - At least 2 test for each of the expected value. 
+	- Decision tables - Condition and action stubs and entries. 
+- White box
+	- 
