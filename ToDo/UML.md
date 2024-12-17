@@ -1,0 +1,12 @@
+- Structure Diagrams
+	- Class
+	- Activity
+	- State Machine
+- Behaviour Diagrams
+	- Use case
+	- Activity
+	- State Machine
+- Interaction Diagrams
+	- Sequence
+	- Communication
+- Object Constraint Language (OCL): Formal language used to describe expressions on UML models. 

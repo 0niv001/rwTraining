@@ -38,6 +38,7 @@ touch [path] -> create multiple by spacing argument
 mkdir -> -p to create folder structure with parents
 file -> file type
 ```
+
 > [!Naming conventions]
 > No punctuation, slashes and quotes
 > No spaces
@@ -185,13 +186,4 @@ $USER -> get USER env variable
 
 ```
 
-```
-### Useful MAC commands
-```BASH
-caffeinate -> keep mac awake
-curl wttr.in -> weather 
-cal / ncal -> calendar
-date -> date and time. 
-sudo shutdown -r now -> shutdown or reboot *Need to give time*
-blueutil -p 0 / 1 -> turn bluetooth on or off. 
 ```

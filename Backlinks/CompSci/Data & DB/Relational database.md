@@ -1,7 +1,7 @@
 - Most common type of DB, designed as a set of tables and relations that are linked using ID.
 - Each instance is given a primary key to ID, that can be used to related to another DB.
 - Normalisation reduces redundancy by breaking up data into separate tables. 
-- Often use [[SQL]] for creation, manipulation and management.  
+- Often use [[MySQL]] for creation, manipulation and management.  
 - Used for [[Structured data]]
 
 **Transactional data processing**
@@ -27,3 +27,24 @@ To ensure integrity of data OLTP enforce transactions with ACID semantics:
 2. Extract, Transform and Load (ETL) process copies data from files and OLTP DBs into data warehouse, optimised for read ops.
 3. Data from warehouse is pooled and loaded into analytical processing model - Cube. Aggregated measures from pact tables are calculated for intersections of dimensions.
 4. Data in data lake, warehouse, and analytical model can be queried to produce reports, visualisations and dashboards.
+
+**Model**
+- Primary (Unique) and foreign keys (Access info from other table)
+- Relationships
+- SQL
+- Data Normalisation 
+
+**Advantages**
+- Data integrity
+- SQL
+- Flexible querying 
+- Normalisation for consistency
+
+**Drawbacks**
+- Complexity of design
+- Performance overhead
+- Rigid schema
+- Scalability challenges
+- Concurrency control
+- Limited support for hierarchical data
+- Vendor Lock-In 

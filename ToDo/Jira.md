@@ -1,10 +1,7 @@
-Project management - Agile is the default
-
-Agile board - Kanban
-
-Scrum - Has sprints
-
-Kanban - Does not have sprints, its an ongoing thing. 
+- Project management - [[Agile]] is the default
+- Agile board - Kanban
+- Scrum - Has sprints
+- Kanban - Does not have sprints, its an ongoing thing. 
 
 Story 
 - User stories
@@ -35,7 +32,7 @@ Things outside of sprints get added to the backlog.
 Reports on dev can be created in easy to analyse formats. 
 
 Components - group issues related together
-Code - VSC
+Code - [[Version Control]]
 Releases - Versioning e.g. v1, v3, used in kanban instead of sprints
 
 filter and assign issues based on users

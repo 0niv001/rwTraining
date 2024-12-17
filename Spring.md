@@ -1,6 +1,8 @@
 ---
 sticker: lucide//leaf
 ---
+[[Java]] Framework
+
 ## Basics
 
 ## Boot

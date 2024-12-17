@@ -1,9 +1,9 @@
 ---
 sticker: lucide//layers
 ---
-NoSQL DB used by modern apps, they allow for more flexibility. 
+[[Document oriented database]]used by modern apps, they allow for more flexibility. 
 Data format of JSON and BSON (Binary JSON)
-Very commonly used with JS (MERN - Mongo, Express, React, Node). 
+Very commonly used with [[JS]] (MERN - MongoDB, Express, [[React]], [[Node]]). 
 
 **MacOS Service
 - `brew services start mongodb-community@8.0` to start MongoDB
@@ -40,8 +40,6 @@ Very commonly used with JS (MERN - Mongo, Express, React, Node).
 - `const CollName = mongoose.model("Collection", schemaName);` create collectiotn. 
 - `const "item" = new CollName({properties});` create new class / objec
 - `item.save()` - Save to DB.
-
-
 - `item.property = new` change values
 - `Model.find({filter}).then(data => console.log(data))`
 - `.load file.js` do this inside Node REPL

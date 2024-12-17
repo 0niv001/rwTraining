@@ -1,0 +1,5 @@
+- Singleton pattern
+	- Ensures that only one instance of a class is created. 
+- Composite patterns
+- State pattern
+	- Behaviour patterns

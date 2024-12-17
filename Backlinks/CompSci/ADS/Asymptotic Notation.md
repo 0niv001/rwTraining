@@ -10,7 +10,7 @@ There are 3 main forms of asymptotic notation:
 Big O notation is usually used, as it gives the worst case scenario. 
 ## Functions in asymptotic notation
 - If the algorithm takes a constant amount of time regardless of input size we use 1
-- if it takes $log_n$ time, we use $log2$ as standard pracice. 
+- if it takes $log_n$ time, we use $log2$ as standard practice. 
 ## Growth rate 
 | Big-O   | Informal Name     |
 | ------- | ----------------- |
@@ -32,4 +32,3 @@ Big O notation is usually used, as it gives the worst case scenario.
 - O(N^2) - For each input, loop through the inputs again - usually nested
 - O(logN) - Divide search space into 2 pieces at each step. - trees
 - O(2^N) - Selection of items. 
-- 
