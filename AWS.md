@@ -32,7 +32,7 @@ To migrate storage consider the following:
 - Tools
 - Security
 
-DMS - Data migration service
+DMS - Data migration service 
 
 **Cloud migration**
 - Rehost - Migrate to EC2 with little changes

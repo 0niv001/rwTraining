@@ -7,11 +7,11 @@ Remote use of computing resources e.g. storage and processing power, also allowi
 - [[Hybrid Cloud]]
 - [[Private Cloud]]
 - [[Public Cloud]]
+
 **Cloud Models:**
 - [[IaaS]]
 - [[PaaS]]
 - [[SaaS]]
-
 **Benefits:**
 *Availability:*
 - Services stay available despite disruptions such as [[DoS]]
@@ -24,9 +24,7 @@ Remote use of computing resources e.g. storage and processing power, also allowi
 - Can adjust resources to meet demand
 - Vertical: Can add resources to VM as needed
 - Horizontal: Can add VMs or containers based on demand 
-## Azure
-Microsoft cloud provider, offering different services. 
-
+## Azure - Microsoft
 **Architecture**
 - Regions:
 	- Places with at least 1 data centre
@@ -51,3 +49,5 @@ Microsoft cloud provider, offering different services.
 - [[AZ Firewall]]
 - [[WAF]]
 - [[NSG]]
+
+## [[AWS]]
