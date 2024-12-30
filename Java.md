@@ -473,72 +473,135 @@ linkedList.size();
 
 ### Set implementation
 **Hash Set**
-- Use [[Hash Tables]] to store unique elements
+- Use [[Hash Tables]] to store unique elements. 
+- Hash function maps keys to associated values. 
+- O(1) Time complexity by converting the key into an index in the array. 
 - Does not keep order
 - Allows null elements
-- Operations done in constant time
 - Requires more memory
 
 ```java
+HashSet<Integer> hashSet = new HashSet<>();
+
+hashSet.add();
+hashSet.remove(); // Returns true if an element was removed 
+hashSet.contains();
+hashSet.size();
+hashSet.isEmpty();
 
 ```
 
 **Linked Hash Set**
-- Doubly linked list running on all elements
-- Keeps order
-- Takes up a lot of memory
+- Combination of Hash Set and doubly linked list. 
+- Keeps order and is unique but takes up a lot of memory. 
+- Does not have any sorting. 
+- Ideal for collections of unique elements with predictable iteration order. 
 
 ```java
+LinkedHashSet<String> lhs = new LinkedHashSet<>();
+
+lhs.add();
+lhs.remove();
+lhs.iterator(); // Retunrs iterator over the elements of set in insertion order. 
 
 ```
 
 **Tree Set**
-- Sorted order
+- Implemented using a tree map, guarantees elements are sorted in ascending order, according to natural ordering, or by comparator provided at the start. 
 - Easy to iterate over elements in specific sequence
 - No null elements
+- Very slow compared to HashSet and takes up a lot more memory due to tree structure. 
 
 ```java
 TreeSet<Integer> treeSet = new TreeSet<>();
 
 treeSet.add();
-
 treeSet.remove();
-
 treeSet.first(); //Returns first / lowest element in the set
+treeSet.descendingSet(); // Returns reverse order view of elements in the set
+
 ```
 ### Queue Implementation
 **Priority Q**
-- FIFO (First in, First out)
-- Based on natural order or custom operator
-- Allows for duplicates. 
+- Process elements based on priorities. 
+- Use heap based data structure to order elements. 
+- Priority determined by natural ordering of elements or by comparator. 
+- Elements with highest priority are always at the head of the Q. 
+- Does not allow null elements. 
+- NO random access, can only access head of Q. 
 
 ```java
+PriorityQueue<Integer> pq = new PriorityQueue<>();
+
+pq.offer(element); // insert element in PQ, return true if successful
+pq.peek(); // retrieves but doesn't remove head of Q, null if empty
+pq.poll(); // retrieves and removes head of Q, null if empty 
 ```
 
 **Array Deque**
-- Resizable array implementing deque interface
-- Can have any object types inside of it
+- Resizable array implementing deque interface. 
+- Can be both FIFO and LIFO - Versatile for many different applications. 
+- Can have any object types inside of it.  
+- No capacity restrictions, and Efficient for additions and removals > LinkedList
+- Uses a lot of memory because of resizing, especially if done frequently. 
 
 ```java
+ArrayDeque<String> dq = new ArrayDeque<>();
+
+dq.addFirst();
+dq.addLast();
+dq.pollFirst();
+dq.pollLast();
+dq.peekFirst();
+dq.peekLast();
 ```
 
 ### Maps
+Collection that maps keys to values, where keys have to be UNIQUE, each key can map at most one value. 
+
+Relationships established between keys and values allow for efficient retrieval and manipulation of data. 
+
 **Hash Map**
-- Map interface with key value pairs. 
-- Key is always unique. 
+- Constant time performance for basic operations. 
+- Does not guarantee order of elements over time. 
+- Constructed with initial capacity (N of buckets ) and load factor (how full table can get before capacity is automatically increased) - Usually doubling the amount of buckets. 
+- Can have null values and keys. 
 
 ```java
 
-hash.put()
-hash.get()
-hash.remove()
+hm.put(K,V)
+hm.get()
+hm.remove()
 ```
+
 **Enum**
 - Used with Enum keys. 
-- Good for ordered list of items in a collection
+- Efficient and type safe way to implement enum constants to values. 
+- Efficient in time and space performance. 
+- Keys are kept in natural order. 
 - Typed in caps
+- Does not allow for null values. 
 
 ```Java
+import java.util.EnumMap;
+enum Day { MONDAY, TUESDAY, WEDNESDAY, THURSDAY, FRIDAY, SATURDAY, SUNDAY}
+
+EnumMap schedule = new EnumMap<>(Day.class);
+
+schedule.put(Day.MONDAY, "Value");
+schedule.get(SUNDAY); // return value for specified key, or null. 
+schedule.containsKey(MONDAY); // 1 if map contains mapping for the key
+schedule.keySet(); // return set view of keys
+schedule.entrySet(); // view of the mappings in the map 
+```
+
+
+**Abstract Map**
+- test
+
+```java
+
+
 
 ```
 
@@ -550,6 +613,21 @@ hash.remove()
 ```java
 
 ```
+
+*Iterator*
+- Interface for collection transversal, more powerful than for each loop. 
+- Allows for removal of elements from collection during iteration. 
+```Java
+Iterator iter = collectionName.iterator();
+
+while(iter.hasNext()){
+	Integer nums = iter.next();
+	sout(nums)
+}
+```
+
+**Thread Safe Operations**
+
 
 ## Generics
 Allow types to be parameters when defining classes, interfaces and methods. 
