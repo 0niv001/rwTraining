@@ -3,7 +3,7 @@ sticker: lucide//coffee
 ---
 - Every Java file should have the same name class inside of it. 
 - Use descriptive variable names. 
-- Use camel case notation. 
+- Use camelCase notation. 
 - Try to have exit code 0. 
 ## Basics
 **Data types**
@@ -434,6 +434,8 @@ arrList.set(index, element);
 **Stack**
 - Subclass of vector - LIFO (Last in, First out)
 - Quick access to last item. 
+- Thread safe and simple to use, can dynamically be sized. 
+- EV - Legacy class, use of it is discouraged. 
 ```java
 Stack<Integer> stack = new Stack<>();
 
@@ -442,6 +444,8 @@ stack.push(1); //Add item to stack
 stack.pop(2); //Remove and return first item in stack
 
 stack.peek() //Return item at top of stack without removing it
+
+stack.empty() // Empties out the stack 
 ```
 
 **Linked List**
@@ -449,17 +453,22 @@ stack.peek() //Return item at top of stack without removing it
 	- Header: Pointer to first linked element
 	- Size: Number of elements in LinkedList
 	- modCount: Modifications made to LinkedList
+- Part of collections framework, implements Deque interface.
+- Based on doubly linked list - Allows for bidirectional transversal. 
 - Much faster and efficient than ArrayList when adding, unless adding to end. 
 - When searching you need to iterate through each one. 
 - Good for dataset with less updating. 
+- Dynamic sizing. 
 
 ```java
-
+LinkedList<Integer> linkedList = new LinkedList<>();
 
 linkedList.addFirst();
 linkedList.addLast();
 linkedList.removeFirst();
 linkedList.removeLast();
+linkedList.contains(Object);
+linkedList.size();
 ```
 
 ### Set implementation
@@ -704,7 +713,6 @@ Converting byte stream into an object
 
 ```
 ## Threads
-
 
 ```java
 
