@@ -231,3 +231,53 @@ Metric measuring amount of testing performed by a set of test
 Structural or white box
 Value covered as a %
 Different coverage measures.
+
+
+## Deployment
+- Implementation planning
+- Training users and operations
+- User documentation
+- Build software releases
+- Deploy software
+
+**Implementation planning**
+
+
+**User Documentation**
+- Instructional material. 
+- Training material. 
+- Documentation for product or service provided to the end users.
+- Designed to assist end users to use the product or service. 
+
+**Build**
+- Developed application for the customers that is given by dev team to testing team
+- Release is official launch of application for customers. 
+- Build when tested and certified by the software testing team is provided to the customers as release. 
+
+Software deployment includes all the processes required for prepping software app to run and operate in environment. 
+Involves installation, config, testing and making changes to optimise performance. 
+Can be deployed automatically and manually. 
+
+**Config Management**
+- Engineering process for establishing and maintaining consistency of product's performance, and attributes.
+- Verifies that system performs as intended, and is identified and documented. 
+
+**Implementation Strategies**
+- Parallel run: Client uses new and legacy system at the same time. 
+- Big Bang: 
+	- Complete implementation at once, moving everything to new system.
+- Phased Approach: Adoption of new app happens in phases over time, difficult to do if using a waterfall method. 
+
+**Releases packages**
+- Alpha: First phase of testing, generally white box techniques. 
+- Beta: Follows alpha, features complete, but with a few known bugs. 
+- Major / Minor: Software upgrade, gives unique version names or numbers e.g. 15.2
+
+**Version numbering system**
+X.Y.Z -> Major.minor.patch
+- Major is for significant changes, minor is for smaller updates, patches are small bug fixes. 
+
+**Software licensing**
+- Proprietary: Lic
+- End User - EULA
+- Open Source. 

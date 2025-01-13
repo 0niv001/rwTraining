@@ -1,7 +1,7 @@
 ---
 sticker: lucide//leaf
 ---
-[[Java]] Framework
+[[Java- Notes]] Framework
 
 ## Basics
 

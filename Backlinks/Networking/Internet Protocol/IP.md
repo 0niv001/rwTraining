@@ -16,8 +16,6 @@ It allows to keep the connection when the physical device is swapped with new ha
 - Static IP: Manual assignment
 - Dynamic IP: Assigned using [[DHCP]]
 
-In classful addressing IP address is divided into class type, network number and host number
-
 In private IP addressing, hosts on a LAN that are not visible on public internet are given private addresses.
 
 **ARP (Address Resolution Protocol)**

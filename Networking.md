@@ -25,6 +25,10 @@ A network is two or more computers linked together to share data, info and resou
 *[[Ping]]*
 *[[Traceroute]]*
 *[[Port Scanning]]*
+
+**Routing Protocols & Network Topologies**
+[[STP]]
+[[Star topology]]
 ### Network Security
 **Type of network attacks:**
 1. Bugging / Interception:

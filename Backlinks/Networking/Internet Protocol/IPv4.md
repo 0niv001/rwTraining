@@ -12,7 +12,6 @@ To make network admin simpler, networks are divided into subnets, as these canâ€
 
 v4 allowed for the creation of the private address groups; allowing every LAN in every SOHO (small office, home office) to use addresses such as [192.168.2.xxx](http://192.168.2.xxx/) for its internal network addresses, without fear that some other system can intercept traffic on their LAN.
 
-
 First octet of 127 is reserved for computerâ€™s loopback address. Usually 127.0.0.1dress
 
 Special IP addresses 
