@@ -41,8 +41,6 @@ Runner makes it easy to run benchmarks from cmd.
 *Performance bottle necks*
 - Slow methods
 - Inefficient algorithms - The fewer logic steps the better. 
-
-
 *State*
 - Initialise vars that benchmark code needs, but do nt want  to be part of code, these are state vars
 - State objects can be reused across calls to benchmark methods

@@ -1,8 +1,6 @@
 ---
 sticker: lucide//leaf
 ---
-[[Java- Notes]] Framework
-
 ## Basics
 
 ## Boot
@@ -10,17 +8,6 @@ sticker: lucide//leaf
 - Jar - Executable, embedded version of tomcat
 - Dependencies give access to all the technologies of spring boot. 
 - Help.md doc with guides on the dependencies chosen. 
-- Works out the box
-
-**Gradle**
-- Settings define global properties. 
-- Build - Defines config for building the project
-- Gradlew (Mac/Unix) and gradlew.bat (Windows) - scripts to invoke wrapper, to download installation locally. 
-- Gradle repo - Wrapper subdirectory checks version / Downloads distribution. 
-	- .jar
-	- Properties - 
-- bootRun - runs gradle wrapper and builds project
-- See Gradle from notification panel in IntelliJ
 
 **Layered architecture**
 - Each layer is responsible for a different technical aspect of the application e.g. web, business, data. 
@@ -40,3 +27,19 @@ Dependency resolution mechanism to pull them.
 - Look through documentation - data, web, cache, core
 - can use yaml for properties file. 
 - can provide defaults using :
+
+
+**Annotations**
+@Controller -> Selected class/method is a controller
+- Sends HTTP requests and redirect to view.
+- Specialisation of component, allowing for auto detection. 
+- Need to connect URLs with methods -> 
+
+
+@GetMapping("URL")
+- Connects URL with method when receiving GET request to specified url
+
+@RequestParam
+- can have (defaultValue = "") for a default value
+
+Add Model - Map of keys and values in model and add it to request and forward to view destination

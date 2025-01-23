@@ -24,7 +24,7 @@ Differences with [[Ansible]]
 - State
 	- Current state of the setup. 
 - Compares current vs desired state and makes changes to make sure we get to the desired state. 
-- 2nd part is the cloud providers, or [[IaaS]] / [[PaaS]] - Kubernetes. 
+- 2nd part is the cloud providers, or [[IaaS]] / [[PaaS]] Kubernetes. 
 - Access to over 100 Providers to over 1000s resources. 
 
 Once core creates execution plan from config and state it executes it with the providers, carrying out the execution steps. 

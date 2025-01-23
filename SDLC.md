@@ -119,7 +119,6 @@ Software design document - Description of design of system to allow for developm
 | Software elements, relations and properties among them | Use of input devices and software | Separation of concerns                      | Determination of user needs and interface desing |
 |                                                        |                                   | Defined interface                           | User centred approach                            |
 |                                                        |                                   | Encapsulate functionalities                 |                                                  |
-
 *Operational Processes*
 
 | Primary lifecycle - Waterfall | Cross Lifecycle                               |
@@ -231,8 +230,6 @@ Metric measuring amount of testing performed by a set of test
 Structural or white box
 Value covered as a %
 Different coverage measures.
-
-
 ## Deployment
 - Implementation planning
 - Training users and operations
@@ -241,7 +238,6 @@ Different coverage measures.
 - Deploy software
 
 **Implementation planning**
-
 
 **User Documentation**
 - Instructional material. 
@@ -281,3 +277,121 @@ X.Y.Z -> Major.minor.patch
 - Proprietary: Lic
 - End User - EULA
 - Open Source. 
+
+
+## Maintenance
+4 Main classes
+1. Adaptive - Modify system to cope with changes in env
+2. Perfective - Implementing new or changed user requirements to enhance the software
+3. Corrective - Diagnosing and fixing errors, e.g. those found by users. 
+4. Preventive - Increasing software maintainability or reliability to prevent problems in the future. 
+
+Activities
+- Minor enhancements
+- Major enhancements
+- Error correction: Fix errors to make sure software stays useful. 
+- Temp workaround: Bypass a problem 
+- Performance improvement: Scalability, test if performance requirements are being achieved. 
+- Routine updates and upgrades - Fix bugs, Improve performance, protect against risks. 
+
+Reasons for change:
+- Changed user requirement
+- Problem or incident identified. 
+- Regulatory or mandatory change. 
+- Infrastructure and platform change. 
+
+Incidents differ from both problems and requests. 
+Incident interrupts normal service. 
+Problem is identified through a series of multiple incidents with the same symptoms. 
+
+Regulatory change. 
+
+Infrastructure or platform change:
+- Windows to Linux
+- APIs
+- Hardware to Cloud
+
+SLA:
+- Agreement between service providers, not a legal contract, Critical part of tech vendor contract. 
+- Level of service expected from a vendor. 
+
+Reports, Auto Logs
+First and second line support. 
+
+Problem solving techniques
+- Brainstorming
+- Fault tree analysis
+	- Top down approach to identify all potential causes leading to a defect
+	- Each cause is broken down into least possible events or faults. 
+	- Analysis begins with major defect. 
+	- All events are identified
+	- Events are traced down to lowest possible level
+- Root Cause analysis
+	- KT methodology
+	- Problem is disconnected from the decision. 
+	- What happened? Why? how should we act?
+- Ishakawa diagrams
+	- Cause and effect diagram.
+	- Used to categorise problem in order to identify root causes
+- Decomposition
+	- Breaking problem down into smaller components. 
+	- Break system down into subsystems. 
+
+**Importance of managing and controlling changes**
+- Needs and requirements change during lifecycle of the system. 
+- Change management ensures evolution of system is controlled. 
+- Process of analysing costs and benefits of proposed changes. 
+
+Change process flow:
+- Request for change submitted - Change control form. 
+- RFC template to record the change.  
+- Change assessment and planning. 
+- Change approvals. 
+- Change implementation. 
+
+Software development plan is a comprehensive composite artefact that gathers all info needed to manage the project. 
+
+Encloses several artefacts developed during inception phase and is maintained throughout the project. 
+
+Plan core components:
+1. Scope statement
+2. Critical success factor
+3. Deliverables
+4. Wrok breakdown structure
+5. Schedule
+6. Budget
+7. Quality
+8. HR Plan
+9. Stakeholder List
+10. Comms
+11. Risk register
+12. Procurement plan. 
+
+Traceability Matrix
+- Forward Traceability - Project progresses according to plan
+- Backward Traceability - Ensures project stays on track
+- Bi-Directional - Combination of forward and backward traceability, tracks and ensures test coverage. 
+
+Elements of deployment or implementation plan
+- Info about system support
+- Issue tracking
+- Escalation processes
+- Roles and responsibilities before, during and after deployment. 
+
+## Methodologies
+- Waterfall - Sequential design process, wait for one process to be done before going to next.
+
+*Advantages*
+- Provide more confidence of what will be finally delivered earlier in cycle
+- Large scale design or analysis is required. 
+- Where there are many interfaces and dependencies outside of basic product development. 
+
+*Disadvantages*
+- Many organisations and people don't find defining requirements easy to do. 
+- Comms can be a far higher risk. 
+- Tend to be made of teams within teams. 
+
+Main principles of waterfall approach:
+- Low customer involvement.
+- Strong documentation.
+- Sequential structure.
